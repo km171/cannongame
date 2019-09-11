@@ -1,0 +1,41 @@
+body
+{
+    background-color: powderblue;
+}
+canvas
+{
+    background-color: white;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:#f4511e;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 4px 2px;
+    opacity: 0.85;
+    transition: 0.3s;
+  }
+  
+  .button:hover {background-color:#ca5e3e;
+                opacity: 1}
+                
+  
+  .button:active {
+    background-color: #ca5e3e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .button:disabled
+  {
+        opacity: 0.6;
+        cursor: not-allowed;
+  }
